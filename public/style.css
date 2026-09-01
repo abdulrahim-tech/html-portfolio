@@ -364,6 +364,164 @@ footer {
 }
 
 
+/* ========================================
+   CLIENTS PAGE
+======================================== */
+
+.page-header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 30px 70px;
+}
+
+.page-header h1 {
+    max-width: 800px;
+    margin: 0 0 25px;
+
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+}
+
+.page-intro {
+    max-width: 650px;
+
+    margin: 0;
+
+    font-size: 19px;
+    line-height: 1.7;
+
+    color: #666;
+}
+
+
+/* Clients */
+
+.clients {
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 20px 30px 80px;
+}
+
+.client {
+    display: grid;
+    grid-template-columns: 70px 1fr 1.3fr;
+
+    gap: 30px;
+
+    padding: 40px 0;
+
+    border-top: 1px solid #ddd;
+
+    align-items: start;
+}
+
+.client:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.client-number {
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+}
+
+.client h2 {
+    margin: 0;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.client p {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #666;
+}
+
+
+/* Note */
+
+.clients-note {
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 30px;
+
+    border-left: 3px solid #222;
+}
+
+.clients-note p {
+    max-width: 700px;
+
+    margin: 0;
+
+    font-size: 19px;
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* CTA */
+
+.page-cta {
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 100px 30px;
+
+    text-align: center;
+}
+
+.page-cta h2 {
+    margin: 0 0 30px;
+
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .page-header {
+        padding: 70px 20px 50px;
+    }
+
+    .page-header h1 {
+        font-size: 40px;
+    }
+
+    .clients {
+        padding: 10px 20px 60px;
+    }
+
+    .client {
+        grid-template-columns: 40px 1fr;
+
+        gap: 15px;
+    }
+
+    .client p {
+        grid-column: 2;
+    }
+
+    .clients-note {
+        margin: 0 20px;
+        padding: 20px;
+    }
+
+    .page-cta {
+        padding: 70px 20px;
+    }
+
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
