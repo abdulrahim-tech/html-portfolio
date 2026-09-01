@@ -1,62 +1,136 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.clients-section {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 80px 30px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.clients-section h1 {
-    font-size: 48px;
-    margin-bottom: 30px;
-}
+    <title>Clients & Brands | Rahim Khalil</title>
 
-.clients-section img {
-    width: 100%;
-    max-height: 350px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 50px;
-}
+    <meta name="description"
+        content="A selection of brands and businesses Rahim Khalil has worked with across SEO, content, and digital marketing.">
 
-.clients-section h2 {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-.clients-section p {
-    max-width: 700px;
-    font-size: 18px;
-    line-height: 1.7;
-    color: #555;
-    margin-bottom: 40px;
-}
+<body>
 
-.clients-section ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+    <header class="navbar">
 
-.clients-section li {
-    background-color: white;
-    padding: 25px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+        <a href="../index.html" class="logo">
+            Rahim Khalil
+        </a>
 
-.clients-section li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-}
+        <nav>
+            <a href="./about.html">About</a>
+            <a href="./clients.html">Clients</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="eyebrow">CLIENTS & BRANDS</p>
+
+            <h1>Some of the brands I've worked with.</h1>
+
+            <p class="page-intro">
+                I've worked on SEO, content, and digital marketing projects
+                across business setup, hospitality, aviation, and tourism.
+            </p>
+
+        </section>
+
+
+        <section class="clients">
+
+            <div class="client">
+                <span class="client-number">01</span>
+
+                <h2>Meydan Free Zone</h2>
+
+                <p>
+                    SEO and content work focused on business setup,
+                    free zone services, organic visibility, and
+                    content strategy.
+                </p>
+            </div>
+
+
+            <div class="client">
+                <span class="client-number">02</span>
+
+                <h2>M.A.H.Y Khoory Group</h2>
+
+                <p>
+                    SEO and digital content work supporting the
+                    group's online presence and organic search
+                    visibility.
+                </p>
+            </div>
+
+
+            <div class="client">
+                <span class="client-number">03</span>
+
+                <h2>Flynas</h2>
+
+                <p>
+                    Digital and content-related work for an
+                    aviation and travel brand.
+                </p>
+            </div>
+
+
+            <div class="client">
+                <span class="client-number">04</span>
+
+                <h2>Visit Dubai</h2>
+
+                <p>
+                    Content and digital marketing work within
+                    the tourism space.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="clients-note">
+
+            <p>
+                My work has covered different industries, but the goal
+                remains the same: understand the audience, identify
+                opportunities in search, and create work that supports
+                measurable growth.
+            </p>
+
+        </section>
+
+
+        <section class="page-cta">
+
+            <h2>Want to see what I actually worked on?</h2>
+
+            <a href="./contact.html" class="button primary">
+                Get in Touch
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Rahim Khalil</p>
+
+    </footer>
+
+</body>
+
+</html>
